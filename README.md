@@ -1,5 +1,5 @@
 # BIQ2021
-**A Large-Scale Blind Image Quality Assessment Database <br />
+**A Large-Scale Blind Image Quality Assessment Database <br />**
 
 This repository provides BIQ2021 database of images with Mean Opinion Score (MOS) and standard deviation for each image. Moreover, the class labels indicating image quality is also provided to train a classification algorithm. The details of the experiments can be accessed from the "A Large-Scale Blind Image Quality Assessment Database" paper or the research blog.
 
