@@ -7,3 +7,4 @@ The subjective experiments are conducted using a Matlab (R) 2020b app. The app c
 Moreover, the codes used for training a CNN model on BIQ2021 are also provided. Pre-trained model can be downloaded from MATLAB and reconfigured as explained in the paper. The trained models for classification and regression are also provided for validation or comparison.
 Trained Model (InceptionResNet-V2): https://www.mathworks.com/matlabcentral/fileexchange/116410-inceptionresnetv2
 Trained Model (Xception): https://www.mathworks.com/matlabcentral/fileexchange/116415-pre-trained-xception-on-koniq-10k
+Trained Model (NASNet-Large): https://drive.google.com/file/d/1VAi6Kk5nka1ODByoB-yWgBlRw-PLyLHQ/view?usp=sharing
