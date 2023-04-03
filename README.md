@@ -1,5 +1,5 @@
 # BIQ2021
-#**A Large-Scale Blind Image Quality Assessment Database <br />**
+**A Large-Scale Blind Image Quality Assessment Database <br />**
 ## Overview
 This repository provides BIQ2021 database of images with Mean Opinion Score (MOS) for each image. The datset is partioned into three subsets as discussed in "A Large-Scale Blind Image Quality Assessment Database". The MOS for the images is scaled to a range of 0-1 whereas the images in the database are divided into three categories  according to type of content covered by these images. Altough, the images in the database are divided in three categores but their use for training and validation doesn't distinguish an image on the basis of its content category. The name of an image contain ss01, ss02, ss03 which is for SubSet-01, SubSet-02 and SubSet-03 respectively.
 ### Subset-01
@@ -20,20 +20,20 @@ Image Quality Assessment (IQA) is performed by supplying a quality score for eac
 In order to make the benchmarking of various approaches on the BIQ2021 dataset, it is imperative to use a consistant train-test split. For this purpose, the dataset is partioned into two splits with training dataset containing 10,000 images and testing dataset containing 2,000 images. It is to be noted that validation split is not provided with the data and it is upto the user to partion a suitable portion of data for validation, if required.
 ### Model Evaluation
 In order to evaluate the performance of an image quality assessment method on BIQ2021 dataset, Pearson's Linear Correlation Coefficient (PLCC) and Spearman's Rank Order Correlation Coefficient (SROCC) for various methods are reported. It is to be noted that the training of any of these models, if required, is performed on the training dataset and the reported results (PLCC & SROCC) for any method are obtained from testing dataset.<br/>
-|Sr.|Technique/Model|PLCC|SROCC|      
-|-----|-----|-----|-----|
-|1|[BRISQUE](https://www.mathworks.com/help/images/ref/brisque.html)|0.0000|0.0000|
-|2|[NIQE](https://uk.mathworks.com/help/images/ref/niqemodel.html)|0.0000|0.0000|
-|3|[PIQE](https://www.mathworks.com/help/images/ref/piqe.html)|0.0000|0.0000|
-|4|[ResNet-18](https://www.mathworks.com/help/deeplearning/ref/resnet18.html)|0.0000|0.0000|
-|5|[ResNet-50](https://www.mathworks.com/help/deeplearning/ref/resnet50.html)|0.0000|0.0000|
-|6|[ResNet-101](https://www.mathworks.com/help/deeplearning/ref/resnet101.html)|0.0000|0.0000|
-|7|[MobileNet-V2](https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html)|0.0000|0.0000|
-|8|[DenseNet-201](https://www.mathworks.com/help/deeplearning/ref/densenet201.html)|0.0000|0.0000|
-|9|[Inception-ResNet-V2](https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html)|0.0000|0.0000|
-|10|[Xception](https://www.mathworks.com/help/deeplearning/ref/xception.html?searchHighlight=xception&s_tid=srchtitle_xception_1)|0.0000|0.0000|
-|11|[EfficientNet-b0](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html)|0.0000|0.0000|
-|12|[NASNet-Large](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html)|0.0000|0.0000|
+|Sr.|Technique/Model|PLCC|SROCC|RMSE|      
+|-----|-----|-----|-----|-----|
+|1|[BRISQUE](https://www.mathworks.com/help/images/ref/brisque.html)|0.0000|0.0000|0.0000|
+|2|[NIQE](https://uk.mathworks.com/help/images/ref/niqemodel.html)|0.0000|0.0000|0.0000|
+|3|[PIQE](https://www.mathworks.com/help/images/ref/piqe.html)|0.0000|0.0000|0.0000|
+|4|[ResNet-18](https://www.mathworks.com/help/deeplearning/ref/resnet18.html)|0.0000|0.0000|0.0000|
+|5|[ResNet-50](https://www.mathworks.com/help/deeplearning/ref/resnet50.html)|0.6784|0.6114|0.1434|
+|6|[ResNet-101](https://www.mathworks.com/help/deeplearning/ref/resnet101.html)|0.0000|0.0000|0.0000|
+|7|[MobileNet-V2](https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html)|0.0000|0.0000|0.0000|
+|8|[DenseNet-201](https://www.mathworks.com/help/deeplearning/ref/densenet201.html)|0.0000|0.0000|0.0000|
+|9|[Inception-ResNet-V2](https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html)|0.0000|0.0000|0.0000|
+|10|[Xception](https://www.mathworks.com/help/deeplearning/ref/xception.html?searchHighlight=xception&s_tid=srchtitle_xception_1)|0.0000|0.0000|0.0000|
+|11|[EfficientNet-b0](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html)|0.0000|0.0000|0.0000|
+|12|[NASNet-Large](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html)|0.0000|0.0000|0.0000|
 <br />
 
 Moreover, the codes used for training a CNN model on BIQ2021 are also provided. Pre-trained model can be downloaded from MATLAB and reconfigured as explained in the paper. The trained models for classification and regression are also provided for validation or comparison. <br />
