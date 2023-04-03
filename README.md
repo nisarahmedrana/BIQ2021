@@ -22,7 +22,7 @@ In order to make the benchmarking of various approaches on the BIQ2021 dataset, 
 In order to evaluate the performance of an image quality assessment method on BIQ2021 dataset, Pearson's Linear Correlation Coefficient (PLCC) and Spearman's Rank Order Correlation Coefficient (SROCC) for various methods are reported. It is to be noted that the training of any of these models, if required, is performed on the training dataset and the reported results (PLCC & SROCC) for any method are obtained from testing dataset.<br/>
 |Sr.|Technique/Model|PLCC|SROCC|RMSE|      
 |-----|-----|-----|-----|-----|
-|1|[BRISQUE](https://www.mathworks.com/help/images/ref/brisque.html)|0.0000|0.0000|0.0000|
+|1|[BRISQUE](https://www.mathworks.com/help/images/ref/brisque.html)|0.6941|0.6039|0.1588|
 |2|[NIQE](https://uk.mathworks.com/help/images/ref/niqemodel.html)|0.0000|0.0000|0.0000|
 |3|[PIQE](https://www.mathworks.com/help/images/ref/piqe.html)|0.0000|0.0000|0.0000|
 |4|[ResNet-18](https://www.mathworks.com/help/deeplearning/ref/resnet18.html)|0.0000|0.0000|0.0000|
