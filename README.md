@@ -23,8 +23,8 @@ In order to evaluate the performance of an image quality assessment method on BI
 |Sr.|Technique/Model|PLCC|SROCC|RMSE|      
 |-----|-----|-----|-----|-----|
 |1|[BRISQUE](https://www.mathworks.com/help/images/ref/brisque.html)|0.6941|0.6039|0.1588|
-|2|[NIQE](https://uk.mathworks.com/help/images/ref/niqemodel.html)|0.0000|0.0000|0.0000|
-|3|[PIQE](https://www.mathworks.com/help/images/ref/piqe.html)|0.0000|0.0000|0.0000|
+|2|[NIQE](https://uk.mathworks.com/help/images/ref/niqemodel.html)|0.2981|0.2674|0.5402|
+|3|[PIQE](https://www.mathworks.com/help/images/ref/piqe.html)|0.2088|0.1796|0.3935|
 |4|[ResNet-18](https://www.mathworks.com/help/deeplearning/ref/resnet18.html)|0.0000|0.0000|0.0000|
 |5|[ResNet-50](https://www.mathworks.com/help/deeplearning/ref/resnet50.html)|0.6784|0.6114|0.1434|
 |6|[ResNet-101](https://www.mathworks.com/help/deeplearning/ref/resnet101.html)|0.0000|0.0000|0.0000|
