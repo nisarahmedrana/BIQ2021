@@ -28,15 +28,16 @@ In order to evaluate the performance of an image quality assessment method on BI
 |4|[ResNet-18](https://www.mathworks.com/help/deeplearning/ref/resnet18.html)|0.0000|0.0000|0.0000|
 |5|[ResNet-50](https://www.mathworks.com/help/deeplearning/ref/resnet50.html)|0.6862|0.6468|0.1457|
 |6|[ResNet-101](https://www.mathworks.com/help/deeplearning/ref/resnet101.html)|0.0000|0.0000|0.0000|
-|7|[MobileNet-V2](https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html)|0.0000|0.0000|0.0000|
-|8|[DenseNet-201](https://www.mathworks.com/help/deeplearning/ref/densenet201.html)|0.0000|0.0000|0.0000|
-|9|[Inception-ResNet-V2](https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html)|0.0000|0.0000|0.0000|
-|10|[Xception](https://www.mathworks.com/help/deeplearning/ref/xception.html?searchHighlight=xception&s_tid=srchtitle_xception_1)|0.0000|0.0000|0.0000|
-|11|[EfficientNet-b0](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html)|0.0000|0.0000|0.0000|
-|12|[NASNet-Large](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html)|0.0000|0.0000|0.0000|
+|7|[MobileNet-V2](https://www.mathworks.com/help/deeplearning/ref/mobilenetv2.html)|0.6613|0.6189|0.1643|
+|8|[DenseNet-201](https://www.mathworks.com/help/deeplearning/ref/densenet201.html)|0.6787|0.6364|0.1520|
+|9|[Inception-ResNet-V2](https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html)|0.7002|0.6624|0.1328|
+|10|[Xception](https://www.mathworks.com/help/deeplearning/ref/xception.html?searchHighlight=xception&s_tid=srchtitle_xception_1)|0.6772|0.6369|0.1620|
+|11|[EfficientNet-b0](https://www.mathworks.com/help/deeplearning/ref/efficientnetb0.html)|0.6143|0.5721|0.2100|
+|12|[Vgg16](https://www.mathworks.com/help/deeplearning/ref/vgg16.html)|0.6415|0.6001|0.1820|
+|13|[NASNet-Large](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html)|0.7083|0.6725|0.1259|
 <br />
 
-Moreover, the codes used for training a CNN model on BIQ2021 are also provided. Pre-trained model can be downloaded from MATLAB and reconfigured as explained in the paper. The trained models for classification and regression are also provided for validation or comparison. <br />
+Moreover, the codes used for training a CNN model on BIQ2021 are provided in training folder. Pre-trained model can be downloaded from MATLAB and reconfigured as explained in the paper. The trained models for classification and regression are also provided for validation or comparison. <br />
 
 Trained Model (InceptionResNet-V2): https://www.mathworks.com/matlabcentral/fileexchange/116410-inceptionresnetv2 <br />
 Trained Model (Xception): https://www.mathworks.com/matlabcentral/fileexchange/116415-pre-trained-xception-on-koniq-10k <br />
