@@ -37,8 +37,34 @@ In order to evaluate the performance of an image quality assessment method on BI
 |13|[NASNet-Large](https://www.mathworks.com/help/deeplearning/ref/nasnetlarge.html)|0.7083|0.6725|0.1259|
 <br />
 
-Moreover, the codes used for training a CNN model on BIQ2021 are provided in training folder. Pre-trained model can be downloaded from MATLAB and reconfigured as explained in the paper. The trained models for classification and regression are also provided for validation or comparison. <br />
+Moreover, the codes used for training a CNN model on BIQ2021 are provided in the main directory for DenseNet201. It can be modified to be used for any pretrained model in MATLAB <br />
 
 Trained Model (InceptionResNet-V2): https://www.mathworks.com/matlabcentral/fileexchange/116410-inceptionresnetv2 <br />
 Trained Model (Xception): https://www.mathworks.com/matlabcentral/fileexchange/116415-pre-trained-xception-on-koniq-10k <br />
 Trained Model (NASNet-Large): https://drive.google.com/file/d/1VAi6Kk5nka1ODByoB-yWgBlRw-PLyLHQ/view?usp=sharing <br />
+
+## Comparison with Existing Methods
+
+|Sr.|	Method	| Year |	PLCC	| SROCC |
+|1|	BIQI \cite{moorthy2010two}	| 2010 |	0.564 |	0.564 |
+|2|	BLIINDS-II \cite{saad2012blind} |	2012	| 0.496 |	0.496 |
+|3|	BRISQUE \cite{mittal2012no} |	2012 |	0.603 |	0.603 |
+|4|	DllVlNE \cite{saad2012blind} |	2012 |	0.617 |	0.617 |
+|5|	NIQE \cite{mittal2012making} |	2012	| 0.356 |	0.356 |
+|6|	Robust BRISQUE \cite{mittal2012robust} |	2012	| 0.605	| 0.605 |
+|7|	CurveletQA \cite{CurveletQA}	| 2014 |	0.63 |	0.63 |
+|8|	GM-LOG-BIQA \cite{xue2014blind} |	2014 |	0.617 |	0.617 |
+|9|	SSEQ \cite{liu2014no}	| 2014 |	0.528 |	0.528 |
+10	PIQE \cite{venkatanath2015blind}	2015	0.213	0.213
+11	GWH-GLBP \cite{li2016no}	2016	0.602	0.602
+12	OG-IQA \cite{Liu2016blind}	2016	0.371	0.371
+13	BMPRI \cite{min2018blind}	2018	0.494	0.494
+14	ENIQA \cite{chen2019no}	2019	0.634	0.634
+15	IL-NIQE \cite{Zhang2019a}	2019	0.461	0.461
+16	NBIQA \cite{Ou2019}	2019	0.642	0.642
+17	NASNet-Large \cite{ahmed2022biq2021}	2021	0.7083	0.6725
+18	PIQI \cite{Ahmed2021}	2021	0.6721	0.6698
+20	DeepEns \cite{ahmed2022deep}	2022	0.8098	0.7922
+19	SGL-IQA \cite{varga2023no}	2023	0.71	0.71
+
+![image](https://github.com/nisarahmedrana/BIQ2021/assets/8161509/92e16bfc-39ad-4d81-9f0b-84c84bdf3b5b)
