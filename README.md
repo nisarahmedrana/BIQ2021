@@ -55,16 +55,16 @@ Trained Model (NASNet-Large): https://drive.google.com/file/d/1VAi6Kk5nka1ODByoB
 |7|	CurveletQA \cite{CurveletQA}	| 2014 |	0.63 |	0.63 |
 |8|	GM-LOG-BIQA \cite{xue2014blind} |	2014 |	0.617 |	0.617 |
 |9|	SSEQ \cite{liu2014no}	| 2014 |	0.528 |	0.528 |
-10	PIQE \cite{venkatanath2015blind}	2015	0.213	0.213
-11	GWH-GLBP \cite{li2016no}	2016	0.602	0.602
-12	OG-IQA \cite{Liu2016blind}	2016	0.371	0.371
-13	BMPRI \cite{min2018blind}	2018	0.494	0.494
-14	ENIQA \cite{chen2019no}	2019	0.634	0.634
-15	IL-NIQE \cite{Zhang2019a}	2019	0.461	0.461
-16	NBIQA \cite{Ou2019}	2019	0.642	0.642
-17	NASNet-Large \cite{ahmed2022biq2021}	2021	0.7083	0.6725
-18	PIQI \cite{Ahmed2021}	2021	0.6721	0.6698
-20	DeepEns \cite{ahmed2022deep}	2022	0.8098	0.7922
-19	SGL-IQA \cite{varga2023no}	2023	0.71	0.71
+|10|	PIQE \cite{venkatanath2015blind}	| 2015 |	0.213 |	0.213 |
+|11|	GWH-GLBP \cite{li2016no}	| 2016	| 0.602 |	0.602 |
+|12|	OG-IQA \cite{Liu2016blind}	| 2016	| 0.371	| 0.371 |
+|13|	BMPRI \cite{min2018blind}	| 2018	| 0.494 |	0.494 |
+|14|	ENIQA \cite{chen2019no}	| 2019 |	0.634 |	0.634 |
+|15|	IL-NIQE \cite{Zhang2019a}	| 2019 |	0.461 |	0.461 |
+|16|	NBIQA \cite{Ou2019}	| 2019 |	0.642 |	0.642 |
+|17|	NASNet-Large \cite{ahmed2022biq2021}	| 2021 |	0.7083 |	0.6725 |
+|18|	PIQI \cite{Ahmed2021} |	2021 |	0.6721 |	0.6698 |
+|20|	DeepEns \cite{ahmed2022deep} |	2022 |	0.8098	| 0.7922 |
+|19|	SGL-IQA \cite{varga2023no}	| 2023 |	0.71 |	0.71|
 
 ![image](https://github.com/nisarahmedrana/BIQ2021/assets/8161509/92e16bfc-39ad-4d81-9f0b-84c84bdf3b5b)
