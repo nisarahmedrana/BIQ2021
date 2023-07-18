@@ -44,27 +44,27 @@ Trained Model (Xception): https://www.mathworks.com/matlabcentral/fileexchange/1
 Trained Model (NASNet-Large): https://drive.google.com/file/d/1VAi6Kk5nka1ODByoB-yWgBlRw-PLyLHQ/view?usp=sharing <br />
 
 ## Comparison with Existing Methods
-
+To enable effective comparison and benchmarking of image quality assessment methods on the BIQ2021 dataset, a comprehensive evaluation was conducted by Verga [1](https://www.mdpi.com/2079-9292/12/7/1615) and Ahmed et al. [2](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-31/issue-5/053010/BIQ2021-a-large-scale-blind-image-quality-assessment-database/10.1117/1.JEI.31.5.053010.short?SSO=1). The evaluated methods, along with their performance metrics, are summarized below. The comparison is reported in terms of Pearson (PLCC) and Spearman's (SROCC) correlation coefficients, which are commonly used evaluation measures in the field. It is important to note that the evaluation was performed using the public train/test split provided with the dataset, ensuring a consistent and fair comparison
+<br />
 |Sr.|	Method	| Year |	PLCC	| SROCC |
-|1|	BIQI \cite{moorthy2010two}	| 2010 |	0.564 |	0.564 |
-|2|	BLIINDS-II \cite{saad2012blind} |	2012	| 0.496 |	0.496 |
-|3|	BRISQUE \cite{mittal2012no} |	2012 |	0.603 |	0.603 |
-|4|	DllVlNE \cite{saad2012blind} |	2012 |	0.617 |	0.617 |
-|5|	NIQE \cite{mittal2012making} |	2012	| 0.356 |	0.356 |
-|6|	Robust BRISQUE \cite{mittal2012robust} |	2012	| 0.605	| 0.605 |
-|7|	CurveletQA \cite{CurveletQA}	| 2014 |	0.63 |	0.63 |
-|8|	GM-LOG-BIQA \cite{xue2014blind} |	2014 |	0.617 |	0.617 |
-|9|	SSEQ \cite{liu2014no}	| 2014 |	0.528 |	0.528 |
-|10|	PIQE \cite{venkatanath2015blind}	| 2015 |	0.213 |	0.213 |
-|11|	GWH-GLBP \cite{li2016no}	| 2016	| 0.602 |	0.602 |
-|12|	OG-IQA \cite{Liu2016blind}	| 2016	| 0.371	| 0.371 |
-|13|	BMPRI \cite{min2018blind}	| 2018	| 0.494 |	0.494 |
-|14|	ENIQA \cite{chen2019no}	| 2019 |	0.634 |	0.634 |
-|15|	IL-NIQE \cite{Zhang2019a}	| 2019 |	0.461 |	0.461 |
-|16|	NBIQA \cite{Ou2019}	| 2019 |	0.642 |	0.642 |
-|17|	NASNet-Large \cite{ahmed2022biq2021}	| 2021 |	0.7083 |	0.6725 |
-|18|	PIQI \cite{Ahmed2021} |	2021 |	0.6721 |	0.6698 |
-|20|	DeepEns \cite{ahmed2022deep} |	2022 |	0.8098	| 0.7922 |
-|19|	SGL-IQA \cite{varga2023no}	| 2023 |	0.71 |	0.71|
-
-![image](https://github.com/nisarahmedrana/BIQ2021/assets/8161509/92e16bfc-39ad-4d81-9f0b-84c84bdf3b5b)
+|1|	[BIQI](https://ieeexplore.ieee.org/abstract/document/5432998/)	| 2010 |	0.564 |	0.564 |
+|2|	[BLIINDS-II](https://ieeexplore.ieee.org/abstract/document/6172573/) |	2012	| 0.496 |	0.496 |
+|3|	[BRISQUE](https://ieeexplore.ieee.org/abstract/document/6272356/) |	2012 |	0.603 |	0.603 |
+|4|	[DllVlNE](https://ieeexplore.ieee.org/abstract/document/6172573) |	2012 |	0.617 |	0.617 |
+|5|	[NIQE](https://ieeexplore.ieee.org/abstract/document/6353522) |	2012	| 0.356 |	0.356 |
+|6|	[Robust BRISQUE](https://ieeexplore.ieee.org/abstract/document/6489326/) |	2012	| 0.605	| 0.605 |
+|7|	[CurveletQA](https://www.sciencedirect.com/science/article/abs/pii/S0923596514000496)	| 2014 |	0.63 |	0.63 |
+|8|	[GM-LOG-BIQA](https://ieeexplore.ieee.org/abstract/document/6894197/) |	2014 |	0.617 |	0.617 |
+|9|	[SSEQ](https://www.sciencedirect.com/science/article/abs/pii/S0923596514000927)	| 2014 |	0.528 |	0.528 |
+|10|	[PIQE](https://ieeexplore.ieee.org/abstract/document/7084843/)	| 2015 |	0.213 |	0.213 |
+|11|	[GWH-GLBP](https://ieeexplore.ieee.org/abstract/document/7423683/)	| 2016	| 0.602 |	0.602 |
+|12|	[OG-IQA](https://www.sciencedirect.com/science/article/abs/pii/S0923596515001708)	| 2016	| 0.371	| 0.371 |
+|13|	[BMPRI](https://ieeexplore.ieee.org/abstract/document/8326697)	| 2018	| 0.494 |	0.494 |
+|14|	[ENIQA](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-019-0479-7)	| 2019 |	0.634 |	0.634 |
+|15|	[IL-NIQE](https://ieeexplore.ieee.org/abstract/document/8648473)	| 2019 |	0.461 |	0.461 |
+|16|	[NBIQA](https://ieeexplore.ieee.org/abstract/document/8803047)	| 2019 |	0.642 |	0.642 |
+|17|	[NASNet-Large](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-31/issue-5/053010/BIQ2021-a-large-scale-blind-image-quality-assessment-database/10.1117/1.JEI.31.5.053010.short?SSO=1)	| 2021 |	0.7083 |	0.6725 |
+|18|	[PIQI](https://link.springer.com/article/10.1007/s11042-020-10286-w) |	2021 |	0.6721 |	0.6698 |
+|20|	[DeepEns](https://link.springer.com/article/10.1007/s00500-021-06662-9) |	2022 |	0.8098	| 0.7922 |
+|19|	[SGL-IQA](https://www.mdpi.com/2079-9292/12/7/1615) | 2023 |	0.71 |	0.71|
+<br />
