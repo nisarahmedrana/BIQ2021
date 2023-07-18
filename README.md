@@ -44,9 +44,10 @@ Trained Model (Xception): https://www.mathworks.com/matlabcentral/fileexchange/1
 Trained Model (NASNet-Large): https://drive.google.com/file/d/1VAi6Kk5nka1ODByoB-yWgBlRw-PLyLHQ/view?usp=sharing <br />
 
 ## Comparison with Existing Methods
-To enable effective comparison and benchmarking of image quality assessment methods on the BIQ2021 dataset, a comprehensive evaluation was conducted by Verga [1](https://www.mdpi.com/2079-9292/12/7/1615) and Ahmed et al. [2](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-31/issue-5/053010/BIQ2021-a-large-scale-blind-image-quality-assessment-database/10.1117/1.JEI.31.5.053010.short?SSO=1). The evaluated methods, along with their performance metrics, are summarized below. The comparison is reported in terms of Pearson (PLCC) and Spearman's (SROCC) correlation coefficients, which are commonly used evaluation measures in the field. It is important to note that the evaluation was performed using the public train/test split provided with the dataset, ensuring a consistent and fair comparison
+To enable effective comparison and benchmarking of image quality assessment methods on the BIQ2021 dataset, a comprehensive evaluation was conducted by Verga [[1]](https://www.mdpi.com/2079-9292/12/7/1615) and Ahmed et al. [[2]](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-31/issue-5/053010/BIQ2021-a-large-scale-blind-image-quality-assessment-database/10.1117/1.JEI.31.5.053010.short?SSO=1). The evaluated methods, along with their performance metrics, are summarized below. The comparison is reported in terms of Pearson (PLCC) and Spearman's (SROCC) correlation coefficients, which are commonly used evaluation measures in the field. It is important to note that the evaluation was performed using the public train/test split provided with the dataset, ensuring a consistent and fair comparison
 <br />
-|Sr.|	Method	| Year |	PLCC	| SROCC |
+|Sr.|Method|PLCC|SROCC|RMSE|      
+|-----|-----|-----|-----|-----|
 |1|	[BIQI](https://ieeexplore.ieee.org/abstract/document/5432998/)	| 2010 |	0.564 |	0.564 |
 |2|	[BLIINDS-II](https://ieeexplore.ieee.org/abstract/document/6172573/) |	2012	| 0.496 |	0.496 |
 |3|	[BRISQUE](https://ieeexplore.ieee.org/abstract/document/6272356/) |	2012 |	0.603 |	0.603 |
